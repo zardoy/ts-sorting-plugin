@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "plugins": [{ "name": "ts-sorting-plugin" }],
+        "moduleResolution": "Node",
+        "module": "ESNext",
+        "strict": true
+    },
+    "include": ["."]
+}

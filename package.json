@@ -1,0 +1,16 @@
+{
+	"name": "sorting",
+	"version": "0.0.0",
+	"private": true,
+	"dependencies": {
+		"@reduxjs/toolkit": "^1.8.1",
+		"@types/node": "^17.0.31",
+		"esbuild": "^0.14.38",
+		"pinia": "^2.0.14",
+		"ts-sorting-plugin": "link:./typescript",
+		"typescript": "4.5.5"
+	},
+	"scripts": {
+		"build-plugin": "tsc -p typescript"
+	}
+}

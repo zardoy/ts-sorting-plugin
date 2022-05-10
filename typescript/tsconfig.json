@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "moduleResolution": "Node",
+        "module": "CommonJS",
+        "noImplicitAny": false,
+        "strict": true,
+        "noEmit": false,
+        "rootDir": "src",
+        "outDir": "build"
+    },
+    "include": ["src"]
+}
