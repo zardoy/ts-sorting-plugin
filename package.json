@@ -11,6 +11,6 @@
 		"typescript": "4.5.5"
 	},
 	"scripts": {
-		"build-plugin": "tsc -p typescript"
+		"postinstall": "tsc -p typescript"
 	}
 }
